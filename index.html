@@ -1,7 +1,53 @@
-<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>clipposter</title>
-<body style="font-family:system-ui;max-width:720px;margin:40px auto;padding:0 16px">
-<h1>clipposter</h1>
-<p>A personal tool for uploading my own short-form clips to my YouTube, TikTok and Instagram accounts.</p>
-<p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f7f8;--card:#fff;--text:#16161a;--muted:#5f6068;--line:#e6e6ea;--accent:#ff3b5c;--accent2:#7b5cff}
+@media (prefers-color-scheme:dark){:root{--bg:#0d0d10;--card:#16161b;--text:#ececf1;--muted:#9a9aa6;--line:#26262e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent2);text-decoration:none}a:hover{text-decoration:underline}
+header{max-width:760px;margin:0 auto;padding:28px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px;color:var(--text)}
+.brand:hover{text-decoration:none}
+.logo{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:grid;place-items:center}
+.logo svg{width:14px;height:14px;fill:#fff;margin-left:2px}
+nav{display:flex;gap:18px;font-size:14px}nav a{color:var(--muted)}nav a:hover{color:var(--text);text-decoration:none}
+main{max-width:760px;margin:0 auto;padding:0 20px 40px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:36px 32px}
+@media (max-width:560px){.card{padding:26px 20px}}
+h1{font-size:30px;line-height:1.2;margin:0 0 6px;letter-spacing:-.02em}
+h2{font-size:17px;margin:28px 0 6px}
+.meta{color:var(--muted);font-size:14px;margin:0 0 20px}
+p,li{color:var(--text)}ul{padding-left:20px}
+.muted{color:var(--muted)}
+.btn{display:inline-block;background:var(--text);color:var(--card);border:0;border-radius:10px;padding:11px 18px;font:600 15px Inter,system-ui,sans-serif;cursor:pointer}
+.btn:hover{text-decoration:none;opacity:.9}
+footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="./"><span class="logo"><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"/></svg></span>clipposter</a>
+  <nav><a href="./">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+</header>
+<main><div class="card">
+<h1>Post once. Everywhere.</h1>
+<p class="meta">A personal publishing tool for short-form video.</p>
+<p>clipposter uploads my own finished short-form clips from my computer to the YouTube, TikTok and Instagram accounts I own, in one step, using each platform's official API.</p>
+<h2>What it does</h2>
+<ul>
+  <li>Uploads videos with a title, caption and tags to accounts I've connected</li>
+  <li>Only uploads. It doesn't read, collect or analyze anyone's data</li>
+  <li>Runs only on my own computer and isn't offered to other users</li>
+</ul>
+<p class="muted" style="margin-top:24px">clipposter is an independent project and isn't affiliated with or endorsed by YouTube, Google, TikTok or Meta.</p>
+</div></main>
+<footer><span>© 2026 clipposter · a personal tool</span><span>Contact: <a href="mailto:__EMAIL__">__EMAIL__</a></span></footer>
 </body>
+</html>

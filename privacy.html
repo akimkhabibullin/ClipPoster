@@ -1,8 +1,79 @@
-<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Privacy Policy</title>
-<body style="font-family:system-ui;max-width:720px;margin:40px auto;padding:0 16px">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy · clipposter</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f7f8;--card:#fff;--text:#16161a;--muted:#5f6068;--line:#e6e6ea;--accent:#ff3b5c;--accent2:#7b5cff}
+@media (prefers-color-scheme:dark){:root{--bg:#0d0d10;--card:#16161b;--text:#ececf1;--muted:#9a9aa6;--line:#26262e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent2);text-decoration:none}a:hover{text-decoration:underline}
+header{max-width:760px;margin:0 auto;padding:28px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px;color:var(--text)}
+.brand:hover{text-decoration:none}
+.logo{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:grid;place-items:center}
+.logo svg{width:14px;height:14px;fill:#fff;margin-left:2px}
+nav{display:flex;gap:18px;font-size:14px}nav a{color:var(--muted)}nav a:hover{color:var(--text);text-decoration:none}
+main{max-width:760px;margin:0 auto;padding:0 20px 40px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:36px 32px}
+@media (max-width:560px){.card{padding:26px 20px}}
+h1{font-size:30px;line-height:1.2;margin:0 0 6px;letter-spacing:-.02em}
+h2{font-size:17px;margin:28px 0 6px}
+.meta{color:var(--muted);font-size:14px;margin:0 0 20px}
+p,li{color:var(--text)}ul{padding-left:20px}
+.muted{color:var(--muted)}
+.btn{display:inline-block;background:var(--text);color:var(--card);border:0;border-radius:10px;padding:11px 18px;font:600 15px Inter,system-ui,sans-serif;cursor:pointer}
+.btn:hover{text-decoration:none;opacity:.9}
+footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="./"><span class="logo"><svg viewBox="0 0 10 12"><path d="M0 0l10 6-10 6z"/></svg></span>clipposter</a>
+  <nav><a href="./">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+</header>
+<main><div class="card">
 <h1>Privacy Policy</h1>
-<p>clipposter is a personal tool used only by its owner to upload their own videos to their own YouTube, TikTok and Instagram accounts.</p>
-<p>It requests permission to upload videos and read basic profile info (account name) so the owner can see which account is connected. Access tokens are stored only on the owner's computer. No data is sold, shared or sent to any server other than the platform the video is being posted to.</p>
-<p>You can revoke access at any time from your Google, TikTok or Instagram account settings.</p>
+<p class="meta">Effective October 9, 2026</p>
+<p>clipposter is a personal tool used only by its owner to upload their own videos to YouTube, TikTok and Instagram accounts they own. This policy explains what it accesses and how that information is handled.</p>
+
+<h2>YouTube API Services</h2>
+<p>clipposter uses YouTube API Services to upload videos. By using clipposter you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of your data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>Information accessed</h2>
+<ul>
+  <li><strong>Upload permission</strong> for the connected YouTube, TikTok or Instagram account, used only to publish videos the owner chooses.</li>
+  <li><strong>Basic account info</strong> (channel name or username) so the owner can see which account is connected.</li>
+  <li><strong>Access tokens</strong> issued by each platform during login.</li>
+</ul>
+<p>clipposter does not access viewer data, comments, analytics, messages, or any data about other users.</p>
+
+<h2>How information is used and stored</h2>
+<ul>
+  <li>Information is used only to upload videos and show which account is connected.</li>
+  <li>Access tokens and account names are stored only on the owner's own computer. They're never sent to any server except the platform's own API.</li>
+  <li>No information is sold, shared with third parties, or used for advertising.</li>
+  <li>No cookies or tracking are used, by this website or the tool.</li>
+</ul>
+
+<h2>Retention and deletion</h2>
+<p>Stored tokens are kept until the account is disconnected. Deleting the tool's local token file removes them immediately. Uploaded videos stay on the platform until deleted there.</p>
+
+<h2>Revoking access</h2>
+<p>You can revoke clipposter's access at any time:</p>
+<ul>
+  <li>Google / YouTube: <a href="https://security.google.com/settings/security/permissions">Google security settings</a></li>
+  <li>TikTok: Settings and privacy → Security → Apps and services permissions</li>
+  <li>Instagram: Settings → Website permissions → Apps and websites</li>
+</ul>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:__EMAIL__">__EMAIL__</a></p>
+</div></main>
+<footer><span>© 2026 clipposter · a personal tool</span><span>Contact: <a href="mailto:__EMAIL__">__EMAIL__</a></span></footer>
 </body>
+</html>
